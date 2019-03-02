@@ -24,7 +24,7 @@ def get_data_file(filename):
 
 
 if __name__ == '__main__':
-    file_location = 'D:\\Git\\SortByControversial\\data\\trump_speeches.txt'
+    file_location = '..\\data\\trump_speeches.txt'
     trump_speeches = get_data_file(file_location)
     trump_sentences = generate_titles(trump_speeches, 15)
     generated_speech = ' '.join(trump_sentences)
