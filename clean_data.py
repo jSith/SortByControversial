@@ -21,7 +21,7 @@ def write_file(filename, content):
 
 
 if __name__ == '__main__':
-    file_location = '..\\data\\trump_speeches.txt'
+    file_location = 'data\\trump_speeches.txt'
     text = read_file(file_location)
     clean_string = clean_data(text)
     write_file(file_location, clean_string)
